@@ -1,1 +1,15 @@
-{"name":"test-auto-run","version":"1.0.0","main":"dist/index.js","license":"MIT","type":"module","scripts":{"dev":"node --loader ts-node/esm ./src/main.ts","start":"node ./dist/main.js","build":"tsc"}}
+{
+  "name": "test-auto-run",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node --loader ts-node/esm ./src/main.ts",
+    "start": "node ./dist/main.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
